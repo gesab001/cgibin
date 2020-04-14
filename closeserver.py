@@ -2,7 +2,7 @@
 from subprocess import call
 import cgitb
 #import mysql.connector as conn
-cgitb.enable()
+cgitb.enable()    
 
 
 print("Content-Type: text/html;charset=utf-8")

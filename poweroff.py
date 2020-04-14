@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 from subprocess import call
 import cgitb
-import subprocess
 #import mysql.connector as conn
 cgitb.enable()    
 
@@ -17,4 +16,5 @@ def beginning(string):
 
 string = "In the beginning God created the heaven and the earth. Genesis 1:1"
 beginning(string)
-subprocess.call("poweroff", shell=True)
+
+#subprocess.call("poweroff", shell=True)
