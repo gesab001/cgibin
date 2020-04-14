@@ -1,0 +1,1 @@
+ffplay -vf subtitles=bible-subtitles.ass:force_style='Alignment=2',subtitles=batman-filtered.ass:force_style='Alignment=6' -i ../html/videos/batman.mp4 -af"
