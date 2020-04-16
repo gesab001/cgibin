@@ -25,16 +25,42 @@ title = form.getvalue('title')
 filename = form.getvalue('filename')
 caption = form.getvalue('caption')
 book = form.getvalue('book')
-chapter = form.getvalue('chapter')
+chapter = (form.getvalue('chapter'))
 verse = form.getvalue('verse')
-
+word = ""
 
 print ("title: " + title)
+print("<br>")
 print ("filename: " + filename)
+print("<br>")
 print ("caption: " + caption)
+print("<br>")
 print ("book: " + book)
+print("<br>")
 print ("chapter: " + chapter)
+print("<br>")
 print ("verse: " + verse)
+f = open("bible.json", "r")
+jsonString = f.read()
+bibleJson = json.loads(jsonString)
+bible = bibleJson["bible"]
+for item in bible:
+   if item["book"]==book:
+      if int(item["chapter"])==int(chapter):
+           if int(item["verse"])==int(verse):
+               word = item["word"]
+print("<br>")
+print ("word: " + word)
+
+path = "../html/story.onecloudapps.net/imagedata.json"
+f = open(path)
+jsonString = f.read()
+imageJson = json.loads(jsonString)
+newJsonData = {"title": title, "filename": filename, "caption": caption, "bible": {"book": book, "chapter": chapter, "verse": int(verse)}}
+imageJson["slides"].append(newJsonData)
+f.close()
+with open(path, 'w') as outfile:
+    json.dump(imageJson, outfile)
 
 print ("<form action='../story.onecloudapps.net/index.php' method='post'>")
 print ("<input type='hidden' name='title' value='"+title+"'/>")
