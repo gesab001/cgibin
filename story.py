@@ -22,7 +22,7 @@ form = cgi.FieldStorage()
 # #last_name  = form.getvalue('last_name')
 
 title = form.getvalue('title')
-filename = form.getvalue('filename')
+filename = form.getvalue('filename').strip()
 caption = form.getvalue('caption')
 book = form.getvalue('book')
 chapter = (form.getvalue('chapter'))
@@ -40,6 +40,8 @@ print("<br>")
 print ("chapter: " + chapter)
 print("<br>")
 print ("verse: " + verse)
+print ("<br>")
+print ("<img src='../pictures/"+title.lower()+"/"+filename+"'>")
 f = open("bible.json", "r")
 jsonString = f.read()
 bibleJson = json.loads(jsonString)
@@ -52,7 +54,7 @@ for item in bible:
 print("<br>")
 print ("word: " + word)
 
-path = "../html/story.onecloudapps.net/imagedata.json"
+path = "../html/story.onecloudapps.net/"+title.lower()+"/imagedata.json"
 f = open(path)
 jsonString = f.read()
 imageJson = json.loads(jsonString)
