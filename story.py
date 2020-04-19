@@ -22,7 +22,7 @@ form = cgi.FieldStorage()
 # #last_name  = form.getvalue('last_name')
 
 title = form.getvalue('title')
-filename = form.getvalue('filename').strip()
+filename = form.getvalue('filename')
 caption = form.getvalue('caption')
 book = form.getvalue('book')
 chapter = (form.getvalue('chapter'))

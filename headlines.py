@@ -5,7 +5,7 @@ import subprocess
 import urllib.request
 
 #import mysql.connector as conn
-cgitb.enable()    
+cgitb.enable()
 
 
 print("Content-Type: text/html;charset=utf-8")
@@ -20,6 +20,10 @@ with urllib.request.urlopen(url ) as response:
    html = response.read()
 
 print(str(html))
+f = open("../html/headlines.onecloudapps.net/nzherald.xml", "w")
+f.write(html.decode("utf-8"))
+f.close()
+print("finish")
 def beginning(string):
     list = string.split(" ")
     for x in list:
