@@ -20,15 +20,15 @@ print("Content-Type: text/html;charset=utf-8")
 print ("Content-type:text/html\r\n\r\n")
 rss = {"cnn": "http://rss.cnn.com/rss/edition.rss",
         "nzherald": "https://rss.nzherald.co.nz/rss/xml/nzhtsrsscid_000000698.xml",
-        "smh": "https://www.smh.com.au/rss/feed.xml"}
-
-
+        "smh": "https://www.smh.com.au/rss/feed.xml",
+        "fox": "http://feeds.foxnews.com/foxnews/latest"}
 url= rss[news]
 
 response = requests.get(url)
-print(response.text)
+#print(response.text)
 try:
  with open('../html/headlines.onecloudapps.net/'+news+'.xml', 'wb') as file:
     file.write(response.content)
+    print(news+".xml saved successfully" )
 except Exception as ex:
     print(ex)
