@@ -2,7 +2,7 @@
 from subprocess import call
 import cgitb
 import cgi
-
+import json
 import subprocess
 import urllib.request
 import requests
@@ -18,10 +18,16 @@ news = form.getvalue('news')
 
 print("Content-Type: text/html;charset=utf-8")
 print ("Content-type:text/html\r\n\r\n")
-rss = {"cnn": "http://rss.cnn.com/rss/edition.rss",
-        "nzherald": "https://rss.nzherald.co.nz/rss/xml/nzhtsrsscid_000000698.xml",
-        "smh": "https://www.smh.com.au/rss/feed.xml",
-        "fox": "http://feeds.foxnews.com/foxnews/latest"}
+f = open("../html/headlines.onecloudapps.net/news.json")
+json_string = f.read()
+
+#rss = {"cnn": "http://rss.cnn.com/rss/edition.rss",
+ #       "nzherald": "https://rss.nzherald.co.nz/rss/xml/nzhtsrsscid_000000698.xml",
+  #      "smh": "https://www.smh.com.au/rss/feed.xml",
+   #     "fox": "http://feeds.foxnews.com/foxnews/latest",
+    #    "bbc": "http://feeds.bbci.co.uk/news/rss.xml?edition=uk"}
+rss = json.loads(json_string)
+print(rss)
 url= rss[news]
 
 response = requests.get(url)
