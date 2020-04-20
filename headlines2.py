@@ -32,9 +32,16 @@ url= rss[news]
 
 response = requests.get(url)
 #print(response.text)
+#try:
+ #with open('../html/headlines.onecloudapps.net/'+news+'.xml', 'wb') as file:
+ #   file.write(response.content)
+ #   print(news+".xml saved successfully" )
+#except Exception as ex:
+#    print(ex)
+
 try:
- with open('../html/headlines.onecloudapps.net/'+news+'.xml', 'wb') as file:
-    file.write(response.content)
+    command = "curl " + url + " -o " + news + ".xml"
+    subprocess.call(command, shell=True)
     print(news+".xml saved successfully" )
 except Exception as ex:
     print(ex)

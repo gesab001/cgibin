@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.foxnews.com/~d/styles/itemcontent.css"?><rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+                    <title>FOX News</title>
+    <link>http://www.foxnews.com/</link>
+    <description><![CDATA[FOXNews.com - Breaking news and video. Latest Current News: U.S., World, Entertainment, Health, Business, Technology, Politics, Sports.]]></description>
+        <image>
+    	<url>http://tools.foxnews.com/sites/tools.foxnews.com/files/images/fox-news-logo.png</url>
+    	<title>FOX News</title>
+    	<link>http://www.foxnews.com/</link>
+    </image>
+            <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.foxnews.com/foxnews/latest" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="foxnews/latest" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+                  <guid isPermaLink="true">https://www.foxnews.com/entertainment/cynthia-nixon-biden-courting-hard-core-racists-coronavirus-ad</guid>
+      <link>https://www.foxnews.com/entertainment/cynthia-nixon-biden-courting-hard-core-racists-coronavirus-ad</link>
+                  <media:group>
+        <media:content url="https://static.foxnews.com/foxnews.com/content/uploads/2020/04/Cynthia-Nixon-Reuters-Biden-Ap.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/Cynthia-Nixon-Reuters-Biden-Ap.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/Cynthia-Nixon-Reuters-Biden-Ap.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">c5d5742d-9c51-5e08-9472-a49425a74743</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/entertainment/celebrity-news</category>
+            <category domain="foxnews.com/taxonomy">fox-news/entertainment</category>
+            <category domain="foxnews.com/taxonomy">fox-news/person/donald-trump</category>
+            <category domain="foxnews.com/taxonomy">fox-news/person/joe-biden</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/entertainment</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Cynthia Nixon says Biden is ‘courting hard-core racists’ in latest coronavirus ad</title>
+      <description>Cynthia Nixon is questioning presidential hopeful Joe Biden’s motives after he released an ad that laid the groundwork for how he would combat the coronavirus pandemic compared to Donald Trump.</description>
+                  <dc:creator>Julius Young</dc:creator>
+                         <pubDate>Mon, 20 Apr 2020 20:31:44 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Fox News</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Julius Young</category>
+                            </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/tech/aclu-says-google-apple-coronavirus-contact-tracing-effort-poses-significant-risk-to-privacy-civil-liberties</guid>
+      <link>https://www.foxnews.com/tech/aclu-says-google-apple-coronavirus-contact-tracing-effort-poses-significant-risk-to-privacy-civil-liberties</link>
+                  <media:group>
+        <media:content url="https://static.foxnews.com/foxnews.com/content/uploads/2020/04/d7002cb9-Apple_google-partner-on-covid-19-contact-tracing-technology_04102020.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/d7002cb9-Apple_google-partner-on-covid-19-contact-tracing-technology_04102020.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/d7002cb9-Apple_google-partner-on-covid-19-contact-tracing-technology_04102020.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">c7810aa4-dcb2-52c8-b750-b7bcab8514e8</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/tech/companies/google</category>
+            <category domain="foxnews.com/taxonomy">fox-news/health/infectious-disease/coronavirus</category>
+            <category domain="foxnews.com/taxonomy">fox-news/tech/companies/apple</category>
+            <category domain="foxnews.com/taxonomy">fox-news/tech/topics/privacy</category>
+            <category domain="foxnews.com/taxonomy">fox-news/tech/topics/big-tech-backlash</category>
+            <category domain="foxnews.com/taxonomy">fox-news/tech</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/tech</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>ACLU says Google-Apple coronavirus contact tracing effort poses 'significant risk' to privacy, civil liberties</title>
+      <description>The recently announced contact tracing effort from Google and Apple to stem the spread of coronavirus poses a risk to privacy and civil liberties, according to privacy advocates.</description>
+                  <dc:creator>Christopher Carbone</dc:creator>
+                         <pubDate>Mon, 20 Apr 2020 20:26:56 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Fox News</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Christopher Carbone</category>
+                            </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/media/jason-chaffetz-coronavirus-restriction-protesters-personal-responsibility</guid>
+      <link>https://www.foxnews.com/media/jason-chaffetz-coronavirus-restriction-protesters-personal-responsibility</link>
+                  <media:group>
+        <media:content url="https://static.foxnews.com/foxnews.com/content/uploads/2020/02/JASON-C.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/JASON-C.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/JASON-C.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">3ce385a0-828b-50d9-be0f-a44c7f8c6f9f</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/media/fox-news-flash</category>
+            <category domain="foxnews.com/taxonomy">fox-news/shows/outnumbered</category>
+            <category domain="foxnews.com/taxonomy">fox-news/health/infectious-disease/coronavirus</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/media</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Jason Chaffetz says coronavirus restriction protesters not 'being as responsible as they could'</title>
+      <description>Former House Oversight Committee Chairman and Fox News contributor Jason Chaffetz said Monday that people who are protesting state stay-at-home orders around the country amid the coronavirus pandemic are not “being as responsible as they possibly could."</description>
+                  <dc:creator>Talia Kaplan</dc:creator>
+                         <pubDate>Mon, 20 Apr 2020 20:24:39 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Fox News</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Talia Kaplan</category>
+                            </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/sports/yannick-ngakoue-blasts-jacksonville-jaguars-on-social-media</guid>
+      <link>https://www.foxnews.com/sports/yannick-ngakoue-blasts-jacksonville-jaguars-on-social-media</link>
+                  <media:group>
+        <media:content url="https://static.foxnews.com/foxnews.com/content/uploads/2020/03/Yannick-Ngakoue.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/Yannick-Ngakoue.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/Yannick-Ngakoue.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">f7225144-fc66-53f1-a743-88974fb2c4f1</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/person/yannick-ngakoue</category>
+            <category domain="foxnews.com/taxonomy">fox-news/sports/nfl/jacksonville-jaguars</category>
+            <category domain="foxnews.com/taxonomy">fox-news/sports/nfl-draft</category>
+            <category domain="foxnews.com/taxonomy">fox-news/sports/nfl</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/sports</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Yannick Ngakoue blasts Jacksonville Jaguars on social media</title>
+      <description>Jacksonville Jaguars defensive end Yannick Ngakoue took his thoughts to Twitter on Monday.</description>
+                  <dc:creator>Daniel Canova</dc:creator>
+                         <pubDate>Mon, 20 Apr 2020 20:12:20 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Fox News</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Daniel Canova</category>
+                            </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/entertainment/eva-mendes-images-ryan-gosling-kids</guid>
+      <link>https://www.foxnews.com/entertainment/eva-mendes-images-ryan-gosling-kids</link>
+                  <media:group>
+        <media:content url="https://static.foxnews.com/foxnews.com/content/uploads/2018/09/0744abb9-Gosling-Mendes-Latino.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/0744abb9-Gosling-Mendes-Latino.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/0744abb9-Gosling-Mendes-Latino.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">236e3e5d-f301-5b1b-95cc-0f420a3c960d</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/entertainment/genres/family</category>
+            <category domain="foxnews.com/taxonomy">fox-news/entertainment/celebrity-news</category>
+            <category domain="foxnews.com/taxonomy">fox-news/entertainment</category>
+            <category domain="foxnews.com/taxonomy">fox-news/entertainment/events/babies</category>
+            <category domain="foxnews.com/taxonomy">fox-news/entertainment/events/couples</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/entertainment</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Eva Mendes reveals why she doesn’t share images of Ryan Gosling and her kids</title>
+      <description>Eva Mendes is setting the record straight about why she doesn’t post images of the children she shares with Ryan Gosling.</description>
+                  <dc:creator>Julius Young</dc:creator>
+                         <pubDate>Mon, 20 Apr 2020 20:11:25 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Fox News</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Julius Young</category>
+                            </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/media/storytime-with-dana-me-and-the-sky</guid>
+      <link>https://www.foxnews.com/media/storytime-with-dana-me-and-the-sky</link>
+                  <media:group>
+        <media:content url="https://static.foxnews.com/foxnews.com/content/uploads/2020/03/Story-Time_Dana-Perino.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/Story-Time_Dana-Perino.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/Story-Time_Dana-Perino.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">352b9264-426e-5771-ab26-784b5993c91d</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/topic/storytime-with-dana-perino</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/media</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Storytime with Dana: 'Me and the Sky'</title>
+      <description>Today, I'll be reading a very inspirational book about the life of airline pilot Beverley Bass.</description>
+                  <dc:creator>Dana Perino</dc:creator>
+                         <pubDate>Mon, 20 Apr 2020 20:07:59 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Fox News</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Dana Perino</category>
+                            </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/politics/michigan-governor-whitmer-sets-up-coronavirus-racial-disparity-task-force</guid>
+      <link>https://www.foxnews.com/politics/michigan-governor-whitmer-sets-up-coronavirus-racial-disparity-task-force</link>
+                  <media:group>
+        <media:content url="https://cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/ade324ab-d991-4798-a857-e48fd46572f6/f343810d-857a-4e8f-81e1-afc1b4a4c12b/1280x720/match/image.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/image.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/image.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">3e980c81-ccd8-5bc0-8876-92bea4efaf8e</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/person/gretchen-whitmer</category>
+            <category domain="foxnews.com/taxonomy">fox-news/us/us-regions/midwest/michigan</category>
+            <category domain="foxnews.com/taxonomy">fox-news/health/infectious-disease/coronavirus</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/politics</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Michigan Governor Whitmer sets up coronavirus racial disparity task force</title>
+      <description>Michigan Gov. Gretchen Whitmer ordered on Monday the creation of a task force to investigate why the novel coronavirus has disproportionately affected the state’s African-American community.</description>
+                  <dc:creator>Andrew O'Reilly</dc:creator>
+                         <pubDate>Mon, 20 Apr 2020 20:06:49 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Fox News</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Andrew O'Reilly</category>
+                            </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/sports/isaiah-simmons-5-things-to-know-about-the-2020-nfl-draft-prospect</guid>
+      <link>https://www.foxnews.com/sports/isaiah-simmons-5-things-to-know-about-the-2020-nfl-draft-prospect</link>
+                  <media:group>
+        <media:content url="https://static.foxnews.com/foxnews.com/content/uploads/2020/04/Isaiah-Simmons-2.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/Isaiah-Simmons-2.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/Isaiah-Simmons-2.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">594dbe04-1708-5720-ae56-11802687598d</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/person/isaiah-simmons</category>
+            <category domain="foxnews.com/taxonomy">fox-news/sports/nfl-draft</category>
+            <category domain="foxnews.com/taxonomy">fox-news/sports/nfl</category>
+            <category domain="foxnews.com/taxonomy">fox-news/sports/ncaa/clemson-tigers</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/sports</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Isaiah Simmons: 5 things to know about the 2020 NFL Draft prospect</title>
+      <description>Isaiah Simmons is a linebacker who is looking to make the jump from college to the pros.</description>
+                  <dc:creator>Daniel Canova</dc:creator>
+                         <pubDate>Mon, 20 Apr 2020 20:00:32 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Fox News</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Daniel Canova</category>
+                            </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/us/new-jersey-officials-order-tulip-farm-shut-down-coronavirus</guid>
+      <link>https://www.foxnews.com/us/new-jersey-officials-order-tulip-farm-shut-down-coronavirus</link>
+                  <media:group>
+        <media:content url="https://static.foxnews.com/foxnews.com/content/uploads/2020/04/NL_003_large.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/NL_003_large.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/NL_003_large.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">2e7b1dab-4f46-598d-9160-b1e920b16e4b</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/health/infectious-disease/coronavirus</category>
+            <category domain="foxnews.com/taxonomy">fox-news/us/us-regions/northeast/new-jersey</category>
+            <category domain="foxnews.com/taxonomy">fox-news/health/infectious-disease/outbreaks</category>
+            <category domain="foxnews.com/taxonomy">fox-news/health/infectious-disease</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/us</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>New Jersey officials order drive-thru tulip farm shut down amid coronavirus pandemic</title>
+      <description>New Jersey state officials on Sunday ordered a 99-acre drive-through tulip farm to shut down amid the coronavirus pandemic, according to reports.</description>
+                  <dc:creator>Bradford Betz</dc:creator>
+                         <pubDate>Mon, 20 Apr 2020 19:59:02 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Fox News</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Bradford Betz</category>
+                            </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/media/washington-post-media-critic-cnn-msnbc-coverage-discredited-steele-dossier</guid>
+      <link>https://www.foxnews.com/media/washington-post-media-critic-cnn-msnbc-coverage-discredited-steele-dossier</link>
+                  <media:group>
+        <media:content url="https://static.foxnews.com/foxnews.com/content/uploads/2020/04/Erik-Wemple-MSNBC-CNN.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/Erik-Wemple-MSNBC-CNN.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/Erik-Wemple-MSNBC-CNN.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">302f4b39-c974-5f59-bbaa-df6da4338f00</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/media</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/media</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Washington Posts media critic asks if CNN, MSNBC will review coverage of discredited Steele dossier</title>
+      <description>Washington Post media critic Erik Wemple questioned if MSNBC and CNN are going to review their coverage of the now-discredited Steele dossier after “journalistic breakdowns” evident by recently declassified information. </description>
+                  <dc:creator>Brian Flood</dc:creator>
+                         <pubDate>Mon, 20 Apr 2020 19:56:20 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Fox News</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Brian Flood</category>
+                            </item>
+      </channel>
+</rss>
