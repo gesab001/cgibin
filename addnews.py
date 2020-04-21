@@ -40,6 +40,12 @@ data[keyword] = title
 print(data)
 f.close()
 
-
 with open(filepath, 'w') as outfile:
     json.dump(data, outfile)
+	
+#command = 	"curl '" + url + "' -o ../html/headlines.onecloudapps.net/" + title + ".xml"
+#try:
+# subprocess.call(command, shell=True)
+#except Exception as ex:
+#  print(ex)
+  

@@ -40,7 +40,7 @@ response = requests.get(url)
 #    print(ex)
 
 try:
-    command = "curl " + url + " -o " + news + ".xml"
+    command = "curl '" + url + "' -o ../html/headlines.onecloudapps.net/" + news + ".xml"
     subprocess.call(command, shell=True)
     print(news+".xml saved successfully" )
 except Exception as ex:
