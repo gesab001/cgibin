@@ -3,49 +3,105 @@ from subprocess import call
 import cgitb
 import cgi
 import subprocess
-import urllib.request
+import requests
+import re
 import json
+from datetime import date
+from datetime import datetime
+
 #import mysql.connector as conn
 cgitb.enable()  
 form = cgi.FieldStorage()
   
-keyword = form.getvalue('keyword')
+news = form.getvalue('keyword')
+rss = form.getvalue('url')
 title = form.getvalue('title')
-url = form.getvalue('url')
 
 print("Content-Type: text/html;charset=utf-8")
 print ("Content-type:text/html\r\n\r\n")
 #news = input("news: " )
 #rss = input("rss: " )
-print(keyword)
+print(news)
+print(rss)
 print(title)
-print(url)
-filepath = '../html/headlines.onecloudapps.net/news.json' 
-f = open(filepath)
+
+
+def getYoutubeXML(link):
+	x = requests.get(link)
+	string = x.text
+	match = re.findall(r"channelId\\\":\\\"[a-zA-Z0-9]*\\\"", string)
+	split = match[1].split(":")
+	id = split[1].replace("\"","")
+	id = id.replace("\\", "")
+	url = "https://www.youtube.com/feeds/videos.xml?channel_id="+id
+	print(url)
+	return url
+	
+
+if "youtube" in rss:
+	rss = getYoutubeXML(rss)
+else:
+    print("not a youtube link")
+
+headlines_folder = "../html/headlines/"	
+f = open(headlines_folder+'news.json')
 json_string = f.read()
 data = json.loads(json_string)
-data[keyword] = url
+data[news] = rss
 print(data)
-f.close()
 
-
-with open(filepath, 'w') as outfile:
+with open(headlines_folder+'news.json', 'w') as outfile:
     json.dump(data, outfile)
  
-filepath = '../html/headlines.onecloudapps.net/newstitles.json' 
-f = open(filepath)
+f = open(headlines_folder+'newstitles.json')
 json_string = f.read()
 data = json.loads(json_string)
-data[keyword] = title
+data[news] = title
 print(data)
-f.close()
-
-with open(filepath, 'w') as outfile:
+ 
+with open(headlines_folder+'newstitles.json', 'w') as outfile:
     json.dump(data, outfile)
-	
-#command = 	"curl '" + url + "' -o ../html/headlines.onecloudapps.net/" + title + ".xml"
-#try:
-# subprocess.call(command, shell=True)
-#except Exception as ex:
-#  print(ex)
-  
+
+
+f = open(headlines_folder+"news.json")
+json_string = f.read()
+rss = json.loads(json_string)
+for news in rss:
+   url= rss[news]
+   print(url)
+   try:
+    command = "curl -L '" + url + "' -o " + headlines_folder+news + ".xml"
+    subprocess.call(command, shell=True)
+   
+    print(news+".xml saved successfully" )
+   except Exception as ex:
+    print(ex)
+
+
+# datetime object containing current date and time
+now = datetime.now()
+ 
+#print("now =", now)
+
+# dd/mm/YY H:M:S
+#time_string = now.strftime("%H:%M:%S")
+#print("date and time =", dt_string)	
+date_string = now.strftime("%A, %B %d %Y %r")
+print(date_string)
+#date=str(date_string)
+#day, month, year = date.split(' ')     
+#day_name = datetime.date(int(year), int(month), int(day)) 
+#print(day_name.strftime("%A")) 
+
+#today = date.today()
+# Textual month, day and year	
+#d2 = today.strftime("%B %d, %Y")
+#print("d2 =", d2)
+
+command = "echo " + str(date_string) + " NZ" + " >"+headlines_folder+"lastNewsUpdate.txt"
+subprocess.call(command, shell=True) 
+
+
+
+command = "./gitupdater.sh"
+subprocess.call(command, shell=True)
