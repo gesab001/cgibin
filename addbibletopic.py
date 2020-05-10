@@ -8,37 +8,65 @@ import string
 import re
 import datetime
 #import mysql.connector as conn
-cgitb.enable()
+#cgitb.enable()
 
 print("Content-Type: text/html;charset=utf-8")
 print ("Content-type:text/html\r\n\r\n")
 
 
 # # Create instance of FieldStorage
-form = cgi.FieldStorage()
+#form = cgi.FieldStorage()
 
-topic = form.getvalue('topic')
-print(topic)
+#topic = form.getvalue('topic')
+#print(topic)
+bibles = []
 
-filename = "../html/bible.onecloudapps.net/topics.json"
-github = "../html/gesab001/github-website/gesab001.github.io/topics.json"
-data = {}
-with open(filename) as json_file:
-    data = json.load(json_file)
+file = open("bible.json", "r")
+json_data = json.load(file)
 
-newobject = {"name": topic}
-if newobject in data["topics"]:
-   print("already exists")
-else:
-  data["topics"].append(newobject)
-  print(topic + " " + "added")
-data["topics"].sort()
-for item in data["topics"]:
-   print(item["name"])
-   print("<br>")
+def getTranslation(book, chapter, verse, word):
+    versions = {}
+    versions["kjv"] = word
+    return versions;
+
+def searchBible(topic):
+    bible = json_data["bible"]
+    matchFound = []
+    for item in bible:
+        if topic in item["word"]:
+            book = item["book"]
+            chapter = item["chapter"]
+            verse = item["verse"]
+            word = getTranslation(book, chapter, verse, item["word"])
+            # print(book+str(chapter)+str(verse)+word)
+            newitem = {"book": book, "chapter": int(chapter), "verse": int(verse), "word":word}
+            matchFound.append(newitem)
+    return matchFound
+
+
+filename = "../html/topics2.json"
+data = {"topics": {}, "topiclist": []}
+
+f = open(filename, "r")
+topicsjson = json.load(f)
+
+for item in topicsjson["topics"]:
+    topic = item["name"]
+    if topic in data["topiclist"]:
+       print("already exists")
+    else:
+      versesFound = searchBible(topic)
+      data["topics"][topic] = {}
+      data["topics"][topic]["verses"] = []
+      data["topics"][topic]["verses"] = versesFound
+      data["topiclist"].append(topic)
+      print(topic + " " + "added")
+    data["topiclist"].sort()
+
 
 with open(filename, 'w') as outfile:
     json.dump(data, outfile)
-
+"""
 with open(github, 'w') as outfile:
     json.dump(data, outfile)
+"""

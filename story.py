@@ -41,7 +41,7 @@ print ("chapter: " + chapter)
 print("<br>")
 print ("verse: " + verse)
 print ("<br>")
-print ("<img src='../pictures/"+title.lower()+"/"+filename+"'>")
+print ("<img src='../html/story/"+title.lower()+"/images/"+filename+"'>")
 f = open("bible.json", "r")
 jsonString = f.read()
 bibleJson = json.loads(jsonString)
@@ -54,7 +54,7 @@ for item in bible:
 print("<br>")
 print ("word: " + word)
 
-path = "../html/story.onecloudapps.net/"+title.lower()+"/imagedata.json"
+path = "../html/story/"+title.lower()+"/imagedata.json"
 f = open(path)
 jsonString = f.read()
 imageJson = json.loads(jsonString)
@@ -64,7 +64,7 @@ f.close()
 with open(path, 'w') as outfile:
     json.dump(imageJson, outfile)
 
-print ("<form action='../story.onecloudapps.net/index.php' method='post'>")
+print ("<form action='../story/index.php' method='post'>")
 print ("<input type='hidden' name='title' value='"+title+"'/>")
 print ("<input type='submit' value='go back'/>")
 print ("</form>")

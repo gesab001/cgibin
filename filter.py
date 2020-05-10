@@ -198,9 +198,10 @@ for line in text:
     else:
       vtt+= line
 
-f = open(folder+"batman.vtt", "w")
+f = open(folder+movietitle+".vtt", "w")
 f.write(vtt)
 f.close()
+print("<a href='../video.onecloudapps.net/play.php'>play video</a>")
 #
 # length = 240
 # id = "1"
