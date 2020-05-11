@@ -20,19 +20,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="276" />
-    <option name="y" value="100" />
-    <option name="width" value="1400" />
-    <option name="height" value="954" />
-  </component>
   <component name="ProjectId" id="1bVjOtj0uJQKlmR95Rq6TZ7614i" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/addbibletopic.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xmltojsonbibleconverter.py" />
   </component>
   <component name="RunManager" selected="Python.addbibletopic">
     <configuration name="addbibletopic" type="PythonConfigurationType" factoryName="Python">
@@ -77,9 +71,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="xmltopython" type="PythonConfigurationType" factoryName="Python">
+      <module name="cgi-bin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xmltojsonbibleconverter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.headlines2" />
       <item itemvalue="Python.addbibletopic" />
+      <item itemvalue="Python.xmltopython" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -96,30 +112,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2206" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589153486210">
+    <state x="2206" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589168025187">
       <screen x="1920" y="30" width="1680" height="1050" />
     </state>
-    <state x="2206" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.30.1680.1050/0.58.1920.994@1920.30.1680.1050" timestamp="1589153486209" />
-    <state x="2531" y="313" width="426" height="483" key="FileChooserDialogImpl" timestamp="1589153481412">
+    <state x="2206" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.30.1680.1050/0.58.1920.994@1920.30.1680.1050" timestamp="1589168025187" />
+    <state x="2531" y="313" width="426" height="483" key="FileChooserDialogImpl" timestamp="1589168023651">
       <screen x="1920" y="30" width="1680" height="1050" />
     </state>
-    <state x="2531" y="313" width="426" height="483" key="FileChooserDialogImpl/1920.30.1680.1050/0.58.1920.994@1920.30.1680.1050" timestamp="1589153481412" />
-    <state width="1633" height="258" key="GridCell.Tab.0.bottom" timestamp="1589155664161">
+    <state x="2531" y="313" width="426" height="483" key="FileChooserDialogImpl/1920.30.1680.1050/0.58.1920.994@1920.30.1680.1050" timestamp="1589168023651" />
+    <state width="1367" height="258" key="GridCell.Tab.0.bottom" timestamp="1589184744363">
       <screen x="1920" y="30" width="1680" height="1050" />
     </state>
-    <state width="1633" height="258" key="GridCell.Tab.0.bottom/1920.30.1680.1050/0.58.1920.994@1920.30.1680.1050" timestamp="1589155664161" />
-    <state width="1633" height="258" key="GridCell.Tab.0.center" timestamp="1589155664161">
+    <state width="1367" height="258" key="GridCell.Tab.0.bottom/1920.30.1680.1050/0.58.1920.994@1920.30.1680.1050" timestamp="1589184744363" />
+    <state width="1367" height="258" key="GridCell.Tab.0.center" timestamp="1589184744363">
       <screen x="1920" y="30" width="1680" height="1050" />
     </state>
-    <state width="1633" height="258" key="GridCell.Tab.0.center/1920.30.1680.1050/0.58.1920.994@1920.30.1680.1050" timestamp="1589155664161" />
-    <state width="1633" height="258" key="GridCell.Tab.0.left" timestamp="1589155664161">
+    <state width="1367" height="258" key="GridCell.Tab.0.center/1920.30.1680.1050/0.58.1920.994@1920.30.1680.1050" timestamp="1589184744363" />
+    <state width="1367" height="258" key="GridCell.Tab.0.left" timestamp="1589184744362">
       <screen x="1920" y="30" width="1680" height="1050" />
     </state>
-    <state width="1633" height="258" key="GridCell.Tab.0.left/1920.30.1680.1050/0.58.1920.994@1920.30.1680.1050" timestamp="1589155664161" />
-    <state width="1633" height="258" key="GridCell.Tab.0.right" timestamp="1589155664161">
+    <state width="1367" height="258" key="GridCell.Tab.0.left/1920.30.1680.1050/0.58.1920.994@1920.30.1680.1050" timestamp="1589184744362" />
+    <state width="1367" height="258" key="GridCell.Tab.0.right" timestamp="1589184744363">
       <screen x="1920" y="30" width="1680" height="1050" />
     </state>
-    <state width="1633" height="258" key="GridCell.Tab.0.right/1920.30.1680.1050/0.58.1920.994@1920.30.1680.1050" timestamp="1589155664161" />
+    <state width="1367" height="258" key="GridCell.Tab.0.right/1920.30.1680.1050/0.58.1920.994@1920.30.1680.1050" timestamp="1589184744363" />
     <state x="2473" y="469" width="542" height="171" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1588724613161">
       <screen x="1920" y="30" width="1680" height="1050" />
     </state>
