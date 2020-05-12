@@ -19,8 +19,10 @@ print ("Content-type:text/html\r\n\r\n")
 
 #topic = form.getvalue('topic')
 #print(topic)
-bibles = ["korean", "tagalog", "maori", "cebuano", "hebrew", "hebrewmodern", "textusreceptus", "greekot"]
-versionsdic = {"tagalog": "Tagalog", "korean": "Korean", "maori": "Maori", "cebuano": "Cebuano", "hebrew": "Hebrew", "hebrewmodern": "Modern Hebrew", "textusreceptus": "Greek Textus Receptus", "greekot": "Greek Old Testament"}
+#bibles = ["thailand", "spanish1909", "latinvulgate", "italian1927", "german1912", "french1910", "chinesencvtraditional", "kjv", "korean", "tagalog", "maori", "cebuano", "hebrew", "hebrewmodern", "textusreceptus", "greekot"]
+bibles= ["kjv"]
+versionsdic = {"thailand": "Thai KJV", "spanish1909": "Spanish 1909", "latinvulgate": "Latin Vulgate", "italian1927": "Italian 1927", "german1912": "German 1912", "french1910": "French 1910", "chinesencvtraditional": "Chinese Traditional", "kjv": "KJV", "tagalog": "Tagalog", "korean": "Korean", "maori": "Maori", "cebuano": "Cebuano", "hebrew": "Hebrew", "hebrewmodern": "Modern Hebrew", "textusreceptus": "Greek Textus Receptus", "greekot": "Greek Old Testament"}
+
 jsonbibles = {}
 booklist = {"Genesis": "1", "Exodus": "2", "Leviticus": "3", "Numbers": "4", "Deuteronomy": "5", "Joshua": "6", "Judges": "7", "Ruth": "8", "1 Samuel": "9", "2 Samuel": "10", "1 Kings": "11", "2 Kings": "12", "1 Chronicles": "13", "2 Chronicles": "14", "Ezra": "15", "Nehemiah": "16", "Esther": "17", "Job": "18", "Psalms": "19", "Proverbs": "20", "Ecclesiastes": "21", "Song of Solomon": "22", "Isaiah": "23", "Jeremiah": "24", "Lamentations": "25", "Ezekiel": "26", "Daniel": "27", "Hosea": "28", "Joel": "29", "Amos": "30", "Obadiah": "31", "Jonah": "32", "Micah": "33", "Nahum": "34", "Habakkuk": "35", "Zephaniah": "36", "Haggai": "37", "Zechariah": "38", "Malachi": "39", "Matthew": "40", "Mark": "41", "Luke": "42", "John": "43", "Acts (of the Apostles)": "44", "Romans": "45", "1 Corinthians": "46", "2 Corinthians": "47", "Galatians": "48", "Ephesians": "49", "Philippians": "50", "Colossians": "51", "1 Thessalonians": "52", "2 Thessalonians": "53", "1 Timothy": "54", "2 Timothy": "55", "Titus": "56", "Philemon": "57", "Hebrews": "58", "James": "59", "1 Peter": "60", "2 Peter": "61", "1 John": "62", "2 John": "63", "3 John": "64", "Jude": "65", "Revelation": "66"}
 for bible in bibles:
@@ -78,8 +80,8 @@ for topic in topicsjson["topics"]:
       print(topic + " " + "added")
     data["topiclist"].sort()
 
+bibles.sort()
 data["versionslist"] = bibles
-data["versionslist"].sort()
 data["versionoptions"] = versionsdic
 with open(filename, 'w') as outfile:
     json.dump(data, outfile)
